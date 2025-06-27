@@ -21,6 +21,7 @@ SayMyName(() => {
 });
 
 */
+
 function saque(funcao_de_debitar) {
   console.log("Acessei minha conta");
   funcao_de_debitar();
@@ -35,7 +36,7 @@ function debitar_do_pix() {
   console.log("Saquei do pix");
 }
 
-let saldo_do_cliente = 10;
+let saldo_do_cliente_adalberto = 10;
 
 if (saldo_do_cliente < 100 && saldo_do_cliente > 0) {
   saque(debitar_do_cartao);
