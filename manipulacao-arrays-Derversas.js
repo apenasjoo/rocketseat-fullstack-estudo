@@ -16,7 +16,12 @@ techs.shift();
 console.log(techs.slice(1, 2));
 // remover 1 ou mais items em qualquer posição do array
 techs.splice(1, 2);
-// encontrar a posição de um elemento no array
+// encontrar a posição de um elemento no array e remover
 let index = techs.indexOf("css");
+techs.splice(index, 1)
+
+
 
 console.log(techs);
+
+
